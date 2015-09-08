@@ -1,0 +1,82 @@
+*, html{
+  margin: 0px;
+  padding: 0px;
+}
+#section2{
+  background: 50% 0 no-repeat fixed;
+}
+#home{
+  background: url(../img/back2.jpg) 50% 0 no-repeat fixed;
+}
+#section3{
+  background: url(../img/back3.jpg) 50% 0 no-repeat fixed;
+}
+
+@media (min-width: 1px) and (max-width:509px) { 
+     #home, #section2, #section3{
+  min-height: 300px;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+  #home{
+  background: url(../img/back2xs.jpg) ;}
+  #section2{
+  display:none;}
+  #section3{
+  background: url() ;
+  background-color: black;}
+ }
+ 
+@media (min-width: 510px) and (max-width:991px) { 
+     #home, #section2, #section3{
+  min-height: 490px;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+  #home{
+  background: url(../img/back2sm.jpg) ;}
+  #section2{
+  display:none;}
+  #section3{
+  background: url() ;
+  background-color: black;}
+ }
+@media (min-width: 992px) and (max-width:1999px) {
+#home, #section2, #section3{
+  min-height: 540px;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+  #portfolio{
+  display:none;}
+     
+ }
+ @media (min-width: 1200px) { 
+     #home, #section2, #section3{
+  min-height: 666px;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+  #portfolio{
+  display:none;}
+ }
